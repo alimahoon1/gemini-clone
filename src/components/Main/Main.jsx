@@ -17,8 +17,24 @@ const Main = () => {
                 <div className="cards">
                     <div className="card">
                         <p>Suggest a roadmap to learn ai/ml</p>
-                        <img src={assets} alt="" />
+                        <img src={assets.ai_icon} alt="ai icon" />
                     </div>
+
+                    <div className="card">
+                        <p>Briefly summarise this concept: urban planning</p>
+                        <img src={assets.bulb_icon} alt="ai icon" />
+                    </div>
+
+                    <div className="card">
+                        <p>Brainstorm team bonding activities for our work retreat</p>
+                        <img src={assets.message_icon} alt="ai icon" />
+                    </div>
+                    
+                    <div className="card">
+                        <p>Improve the reading of the following code</p>
+                        <img src={assets.code_icon} alt="ai icon" />
+                    </div>
+
                 </div>
             </div>
         </div>
